@@ -36,7 +36,17 @@ class Automobile
 
     roof = Console.ReadLine();
   
-    
+    Console.WriteLine("The data you gave me is: ");
+
+    Console.WriteLine("Year: " + year);
+
+    Console.WriteLine("Make: " + make);
+
+    Console.WriteLine("Model: " + model);
+
+    Console.WriteLine("Doors: " + doors);
+
+    Console.WriteLine("Roof: " + Roof);
   
   }
 
