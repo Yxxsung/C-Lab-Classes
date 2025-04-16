@@ -1,0 +1,43 @@
+class Automobile
+{
+
+  int year = 0;
+
+  string make = "";
+
+  string model = "";
+
+  int doors = 0;
+
+  string roof = "";
+
+
+  static void Main(){
+  
+    Console.WriteLine("Welcome, User!");
+  
+    Console.WriteLine("What is the year of the vehicle? ");
+  
+    year = Console.ReadLine();
+  
+    Console.WriteLine("What is the make of the vehicle? ");
+  
+    make = Console.ReadLine();
+
+    Console.WriteLine("What is the model of the vehicle? ");
+
+    model = Console.ReadLine();
+
+    Console.WriteLine("How many doors does the vehicle have? ");
+
+    doors = Console.ReadLine();
+
+    Console.WriteLine("What type of roof does the vehicle have? ");
+
+    roof = Console.ReadLine();
+  
+    
+  
+  }
+
+}
